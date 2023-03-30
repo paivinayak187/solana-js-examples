@@ -1,0 +1,15 @@
+{
+  "name": "solana-js-examples",
+  "version": "1.0.0",
+  "description": "Javascript apis to interact with solana block chain",
+  "main": "index.ts",
+  "scripts": {
+    "build": "npx tsc"
+  },
+  "keywords": [],
+  "author": "Vinayaka Pai K",
+  "license": "ISC",
+  "dependencies": {
+    "@solana/web3.js": "^1.74.0"
+  }
+}
