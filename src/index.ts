@@ -1,7 +1,17 @@
+import { Keypair } from "@solana/web3.js";
 import airdrop from "./airdrop";
 import balance from "./balance";
+import newKeyPair from "./utils/Keypair";
 
 console.log("App START");
+
+/**
+ * Create a new key pair
+ */
+const keyPair = newKeyPair();
+const pubKey = keyPair.publicKey.toString();
+console.log(`Keypair public key is ${pubKey}`);
+console.log(`Keypair secret key is ${keyPair.secretKey}`);
 
 /**
  * Get balance of the account
